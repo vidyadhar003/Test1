@@ -22,7 +22,7 @@ public class JDBCUserInput {
 			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/test");
 			
 			//This is test Java class
-			
+			//This is test Java class/This is test Java class
 			String sql="insert into customer values(?,?,?,?)";
 			
 			System.out.println("Enter product id");
