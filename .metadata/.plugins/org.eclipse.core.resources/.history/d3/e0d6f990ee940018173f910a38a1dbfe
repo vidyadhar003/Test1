@@ -1,0 +1,26 @@
+package com.exceptionprograme;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+
+		int i = 10 / 0;
+
+		System.out.println(i);
+
+		String a = args[1];
+
+		System.out.println(a);
+
+		Integer ab = new Integer("aba");
+
+		System.out.println(ab);
+
+		Object obj = new Object();
+
+		ExceptionDemo ex = (ExceptionDemo) obj;
+		System.out.println(ex);
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package com.exceptionprograme;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+
+		try {
+
+			Integer s = new Integer("abb");
+			
+			String a= args[1];
+
+			int i = 10 / 0;
+
+			System.out.println(i);
+
+			System.out.println(s);
+			
+		} catch (ArithmeticException | NumberFormatException | ArrayIndexOutOfBoundsException e) {
+			
+			System.out.println("Array out of bound Exception");
+
+			System.out.println("Number format exception is handend");
+			
+			System.out.println("Divdie by zero exception is handeld");
+
+			e.printStackTrace();
+		}
+
+	}
+
+}

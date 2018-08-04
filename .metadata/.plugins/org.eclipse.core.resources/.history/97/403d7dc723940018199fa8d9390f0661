@@ -1,0 +1,22 @@
+package com.exceptionprograme;
+
+public class Demo3 {
+	
+	public static void main(String[] args) {
+		
+	
+	try {
+		int i=10/0;
+		
+		System.out.println("this statement is not excuted if exception found in try blk");
+	} catch (ArithmeticException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+	
+	}
+	
+	
+	
+}

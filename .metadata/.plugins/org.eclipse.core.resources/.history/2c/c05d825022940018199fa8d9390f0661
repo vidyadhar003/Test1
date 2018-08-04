@@ -1,0 +1,29 @@
+package com.exceptionprograme;
+
+public class Demo2 {
+
+	public static void main(String[] args) {
+
+		String[] s = { "111", "123", "222" ,"9999"};
+		
+		System.out.println(s);
+
+		for (int i = 0; i < s.length; i++) {
+
+			try {
+				System.out.println(i);
+				int intValue = Integer.parseInt(s[i]);
+			} catch (NumberFormatException e) {
+
+				System.out.println("Number format Exception is handled");
+
+				e.printStackTrace();
+			} finally {
+
+				System.out.println("finally excuted");
+			}
+
+		}
+
+	}
+}
