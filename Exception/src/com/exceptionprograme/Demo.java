@@ -9,6 +9,9 @@ public class Demo {
 			int i = 10 / 0;
 
 			System.out.println(i);
+			
+			System.out.println("Hi this exception Demo");
+
 
 		} catch (ArithmeticException e) {
 
