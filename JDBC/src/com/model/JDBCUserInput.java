@@ -33,7 +33,8 @@ public class JDBCUserInput {
 			
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			// TODO Auto-generated catch block
+			
+			System.out.println("Excepton handled");
 			e.printStackTrace();
 		}
 		
